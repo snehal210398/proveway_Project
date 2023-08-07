@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AddToCart</title>
+</head>
+
+<body>
+    <main class="cartContainer">
+        <header class="cartHeading">
+            <div class="headingLine"></div>
+            <div class="headingText">Bundle & Save</div>
+            <hr class="headingLine" />
+        </header>
+        <section class="one">
+            <div class="cartBox">
+                <input type="radio" name="cartItem" id="selectedItem1" onclick="showContent()" />
+                <div class="">
+                    <div class="cartQuant">1 Pair</div>
+                    <div class="cartItemNamePrice">DKK 528.00</div>
+                </div>
+                <div class="cartDisc">50% off</div>
+            </div>
+            <div class="cartInfo" id="cartinfo1">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>size</th>
+                        <th>color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                <td>#2</td>
+                <td>
+                  <select id="size" name="sizelist" form="cart" class="itemSize">
+                    <option value="s">s</option>
+                    <option value="m">m</option>
+                    <option value="l">l</option>
+                    <option value="xl">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select
+                    id="color"
+                    name="colorlist"
+                    form="cart"
+                    class="itemColor"
+                  >
+                    <option value="color">color</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                  </select>
+                </td>
+              </tr> -->
+                </table>
+            </div>
+        </section>
+        <section class="two">
+            <div class="cartBox">
+                <input type="radio" name="cartItem" id="selectedItem2" onclick="showContent()" />
+                <div class="">
+                    <div class="cartQuant">2 Pair</div>
+                    <div class="cartItemNamePrice">DKK 528.00</div>
+                </div>
+                <div class="originalPrice">DKK 195.00</div>
+                <div class="">
+                    <div class="disText">Most Popular</div>
+                    <div class="cartDisc">40% off</div>
+                </div>
+            </div>
+            <div class="cartInfo" id="cartinfo2">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>size</th>
+                        <th>color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="three">
+            <div class="cartBox">
+                <input type="radio" name="cartItem" id="selectedItem3" onclick="showContent()" />
+                <div class="">
+                    <div class="cartQuant">3 Pair</div>
+                    <div class="cartItemNamePrice">DKK 528.00</div>
+                </div>
+
+                <div class="cartDisc">60% off</div>
+            </div>
+            <div class="cartInfo" id="cartinfo3">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>size</th>
+                        <th>color</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select id="size" name="sizelist" form="cart" class="itemSize">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                                <option value="xl">xl</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="color" name="colorlist" form="cart" class="itemColor">
+                                <option value="color">color</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div class="cartTotal">
+            <div class="cartTotalText">Free 2 Day Shipping</div>
+            <div class="cartTotalValue">Total : DKK 360.00</div>
+        </div>
+        <button class="button">+ Add to Cart</button>
+        <footer class="copyWrightText">
+            <span>c</span><i>Powered by Pumper</i>
+        </footer>
+    </main>
+    <style>
+        .copyWrightText span {
+            width: 8px;
+            height: 8px;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            margin: 3px;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-left: 3px;
+            padding-right: 3px;
+            padding-bottom: 1px;
+        }
+
+        .copyWrightText {
+            width: 350px;
+            text-align: right;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14.5px;
+            padding: 14px;
+        }
+
+        .button {
+            color: #ffffff;
+            background-color: #007f61;
+            width: 380px;
+            margin: 16px auto;
+            border: 1px solid #007f61;
+            border-radius: 4px 4px 4px 4px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 29px;
+        }
+
+        .cartTotalValue {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+        }
+
+        .cartTotalText {
+            color: #007f61;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+        }
+
+        .cartTotal {
+            display: flex;
+            width: 350px;
+            margin: 16px auto;
+            justify-content: space-between;
+        }
+
+        .itemSize {
+            /* color: #d9d9d9; */
+            width: 65px;
+            border-radius: 2px;
+            border: 1px solid #d9d9d9;
+        }
+
+        .itemColor {
+            /* background-color: #d9d9d9; */
+            width: 72px;
+            border-radius: 2px;
+            border: 1px solid #d9d9d9;
+        }
+
+        table,
+        th,
+        td {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .cartInfo {
+            display: none;
+        }
+
+        .cartItemNamePrice {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 14.5px;
+            line-height: 17.5px;
+        }
+
+        .cartQuant {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 14.5px;
+            line-height: 17.5px;
+        }
+
+        .cartDisc {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        .disText {
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        .originalPrice {
+            color: #9f9f9f;
+            text-decoration: line-through;
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 9.94px;
+            line-height: 12.03px;
+        }
+
+        .disText {
+            color: #007f61;
+        }
+
+        section {
+            width: 350px;
+            border: 1px solid #c8c8c8;
+            border-radius: 0.25rem;
+            margin: 16px auto;
+            padding: 14px;
+        }
+
+        .cartBox {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .cartHeading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .headingLine {
+            color: #c8c8c8;
+            width: 94px;
+            border: 1px solid #c8c8c8;
+            height: 0px;
+        }
+
+        .headingText {
+            color: #007f61;
+            font-family: Metropolis;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 1rem;
+        }
+
+        .cartContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <script>
+        function showContent() {
+            let radioButton1 = document.getElementById("selectedItem1");
+            let radioButton2 = document.getElementById("selectedItem2");
+            let radioButton3 = document.getElementById("selectedItem3");
+            if (radioButton1.checked) {
+                console.log("1");
+                document.getElementById("cartinfo1").style.display = "flex";
+                //   document.getElementsByClassName("two")[0].style.border =
+                //     "1px solid #c8c8c8";
+                //   document.getElementsByClassName("three")[0].style.border =
+                //     "1px solid #c8c8c8";
+                //   document.getElementsByClassName("one")[0].style.border =
+                //     "2px solid #007F61";
+                document.getElementById("cartinfo2").style.display = "none";
+                document.getElementById("cartinfo3").style.display = "none";
+            }
+            if (radioButton2.checked) {
+                console.log("2");
+                document.getElementById("cartinfo2").style.display = "flex";
+                //   document.getElementsByClassName("one")[0].style.border =
+                //     "1px solid #c8c8c81";
+                //   document.getElementsByClassName("three")[0].style.border =
+                //     "1px solid #c8c8c81";
+                //   document.getElementsByClassName("two")[0].style.border =
+                //     "2px solid #007F61";
+                document.getElementById("cartinfo1").style.display = "none";
+                document.getElementById("cartinfo3").style.display = "none";
+            }
+            if (radioButton3.checked) {
+                console.log("3");
+                document.getElementById("cartinfo3").style.display = "flex";
+                //   document.getElementsByClassName("one")[0].style.border =
+                //     "1px solid #c8c8c8";
+                //   document.getElementsByClassName("two")[0].style.border =
+                //     "1px solid #c8c8c8";
+                //   document.getElementsByClassName("three")[0].style.border =
+                //     "2px solid #007F61";
+                document.getElementById("cartinfo1").style.display = "none";
+                document.getElementById("cartinfo2").style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
